@@ -1,4 +1,4 @@
-*!/bin/bash
+#!/bin/bash
 
 shell=bash
 echo "I am using $shell"
