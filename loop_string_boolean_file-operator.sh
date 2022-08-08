@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#1]
+#1] Relational operator
 echo "Enter 1st number:"
 read a
 echo "Enter 2nd number:"
@@ -12,7 +12,7 @@ then echo "a is less than b"
 else echo a is equal to b
 fi
 
-#2]
+#2] String operator
 a="abc" b="xyz"
 if [ $a = $b ]
 then echo string a is equal to b
@@ -29,7 +29,7 @@ then echo Length of string is not zero
 else echo Length of string is zero
 fi
 
-#3]
+#3] Boolean operator
 a=20 b=50
 if [ $a -le 50 -a $b -le 50 ]                                 # '-a' ==> and is a boolean operator 
 then echo a and b are less than 51
@@ -37,7 +37,7 @@ elif [ $a -gt 0 -o $b -gt 0 ]                                 # '-o' ==> or is a
 then echo a and b are positive nos.
 fi
 
-#4]
+#4] File test operator
 file=loop_string_boolean_file-operator.sh
 if [ -d $file ]
 then echo This file is a directory
