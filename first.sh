@@ -1,7 +1,6 @@
 #!/bin/bash
-
-echo 'This is my 1st script'
-VAR="Nikhil"
-echo "My name is $VAR"
-day="Sunday"
-echo "and today is $day"
+#define different value in same variable
+Name=sagar
+readonly Name    #readonly = overriding not allowed, showing error
+Name=DEVOPS
+echo "my name is: $Name"
