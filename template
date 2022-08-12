@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Please enter file name to create: "
+read file
+touch $file.sh
+echo "#!/bin/bash">$file.sh
+echo "#Enter Title of file: ">>$file.sh
+echo "#File Creation Date:" `date` >>$file.sh
