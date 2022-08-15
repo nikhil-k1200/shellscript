@@ -18,6 +18,8 @@ echo Enter your marks in Chemistry:
 read chem
 if
 test $math -ge 40 -a $phy -ge 40 -a $chem -ge 40
+# OR
+if [ $math -ge 40 -a $phy -ge 40 -a $chem -ge 40 ]
 then echo Congrats! You are passed the exam
 else echo You are failed
 fi
