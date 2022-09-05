@@ -22,3 +22,11 @@ case $n in
 5) echo "a % b = "$((a%b));;
 *) echo Inavalid value provided
 esac
+
+# 'set' statement
+set `date`
+echo "Today's day is $1"
+echo "Month is $2"
+echo "Date is $3"
+echo "Year day is $4"
+echo "Time H:M:S is $5"
