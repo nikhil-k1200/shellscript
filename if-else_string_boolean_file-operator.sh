@@ -29,7 +29,7 @@ then echo Length of string is not zero
 else echo Length of string is zero
 fi
 
-#3] Boolean operator
+#3] Boolean/Logical operator
 a=20 b=45
 if [ $a -le 50 -a $b -le 50 ]; then                                 # '-a' ==> and is a boolean operator 
 echo a and b are less than 50
@@ -51,7 +51,7 @@ read phy
 echo Enter your marks in Chemistry:
 read chem
 if
-test $math -ge 40 -a $phy -ge 40 -a $chem -ge 40
+test $math -ge 40 -a $phy -ge 40 -a $chem -ge 40                    # usage of 'test'
 then echo Congrats! You are passed the exam
 else echo You are failed
 fi

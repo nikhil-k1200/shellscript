@@ -12,7 +12,7 @@ val=`expr $a + $b`         # value of a+b is stored in val variable
 echo "Addition of a + b : $val"
 
 
-sub=$((a - b))
+sub=$((a-b))
 echo Subtarction of a and b is $sub
 # OR
 echo "Subtraction of a - b : `expr $a - $b`"

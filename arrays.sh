@@ -1,5 +1,5 @@
 #!/bin/bash
-https://www.youtube.com/watch?v=uI-xHPk4tO0&t=12090s
+#https://www.youtube.com/watch?v=uI-xHPk4tO0&t=12090s
 
 #1]
 days=(Mon Tue Wed Thu Fri sat Sun)                  # here 0=mon 1=tue 2=wed 3=Thu....

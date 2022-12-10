@@ -25,6 +25,29 @@ for ((i=1 ; i<=5 ; i++))
 do echo Hello class
 done
 
+# Difference between $@ & $* special variable
+# https://www.youtube.com/watch?v=rCbEWf3h3Bo&list=PL6XT0grm_TfgvfQH58GEoEZrTyVl0ABnH&index=42
+for i in "$*"; do
+echo $i
+done
+echo "#####################################################"
+for i in "$@"; do
+echo $i
+done
+
+#O/P
+$ ./1.sh a b c d e
+O/P of $*
+a b c d e
+#####################################################
+O/P of $@
+a
+b
+c
+d
+e
+############################################################################################
+
 # 'while' loop
 a=1
 while [ $a -le 10 ]
